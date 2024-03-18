@@ -1,0 +1,122 @@
+header, footer{
+    background-color: #d7f892;
+    padding: 0% 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caja-header, .caja-footer{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    /* display: inline-block; */
+} 
+                
+.imagen-logo-alura-oracle{
+    transform: scale(0.4);
+}
+
+.titulo-header{
+    display: inline;
+}
+
+
+
+.cuerpo{
+    width: 100%;
+    background: linear-gradient(#fbbe42, #f79c58);
+    display: flex;
+    justify-content: center;
+}
+.caja-cuerpo{
+    padding: 40px;
+    width: 70%;
+    display: block;
+}
+
+.texto-entrada {
+    display: inline-block;
+    width: 50%;
+    padding: 4% 10% 5% 4%;
+}
+
+.texto-entrada{
+    width: 40%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.boton-encriptar , .boton-desencriptar, .boton-copiar{
+    width: 80%;
+    height: 50px;
+    padding: 60 50% 0 0;
+    background: #c52ecf;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    margin: 0 50px 0 5px;
+}
+
+.cajon-texto-encriptar, .mensaje-alerta, .bloque-texto{
+    width: 90%;
+    border-radius: 8%;
+    font-size: 20px;
+}
+
+.guardado-vacio{
+    
+    display: inline-block;
+    width: 20%;
+    padding: 4% 10% 5% 5%;
+}
+
+.pie-pagina{    
+    clear: both;
+    background-color: #ccf866;
+    padding: 0% 0;
+    margin-top: 0;
+}
+
+.parrafo-footer, .parrafo-header {
+    display: inline-block; 
+    color: white; 
+    /* font-size: 20px;  */
+    text-align: center; 
+    position: relative; 
+    /* padding: 5% 15% 5% 15%;  */
+    font-family: cursive;
+}
+
+span{
+    letter-spacing: 2px;
+    font-style: italic;
+    /* font-weight: 200px; */
+    cursor: default;
+}
+
+
+.logo-red-social{
+    width: 30px; 
+    height: 30px;
+}
+
+@media screen and (max-width:500px){
+
+    body{
+        width: fit-content;
+    }
+    header{
+        /* height: 230px; */
+        width: auto;
+    }
+  
+   
+}

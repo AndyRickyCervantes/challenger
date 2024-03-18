@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imagenes/logo-letra.png"> 
+        <title>Encriptador Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja-header">
+                <h1 class="titulo-header">
+                    <img class="imagen-logo-alura-oracle" src="imagenes/logo-aluraoracle.png" alt="Logo de alura y oracle one">
+                </h1>
+            </div>
+        </header>
+
+        <main class="cuerpo">
+            <div class="caja-cuerpo">
+                <div class="texto-entrada">
+                    <label for="area-texto"></label>
+                    <textarea class="cajon-texto-encriptar" name="comentario" id="comentario" placeholder="Ingrese el texto a encriptar aquí"></textarea>
+                    <div class="botones">
+                        <button onclick="presionEncriptar();" class="boton-encriptar" id="boton-encriptar" >Encriptar</button>
+                        <button onclick="presionDesencriptar();" class="boton-desencriptar" id="boton-desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+        
+                <div id="texto-salida" class="guardado-vacio">
+                    <div id="bloque-texto-replace">                       
+                        <textarea id="bloque-texto" class="mensaje-alerta-ii" placeholder="aca saldra quieras encriptar o desencriptar" placeholder="Ningun mensaje fue encontrado"></textarea>
+                    </div>
+                    
+                    <div class="botones">
+                        <button  onclick="presionCopiar();" class="boton-copiar" id="boton-copiar" >Copiar</button>
+                    </div>   
+                </div>
+            </div>
+        </main>
+        
+        <footer class="pie-pagina"  >
+            <div class="caja-footer">
+                <p class="parrafo-footer">
+                    Hecho con "<span style="color: rgba(255, 111, 0, 0.895)">❤ </span>" por ANDY
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/andy-ricky-cervantes" target="_blank">
+                        <img class="logo-red-social" src="https://cdn-icons-png.flaticon.com/128/3669/3669739.png" alt="Logo Linkedign">      
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="encryptor.js" defer></script>
+
+    </body>     
+</html>
